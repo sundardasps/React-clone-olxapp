@@ -16,13 +16,13 @@ export default function Signup() {
 
   const handleSubmit = (e)=>{
     e.preventDefault()
-     if(email == null || email == ""){
+     if(email === null || email === ""){
       alert("Email must be needed")
-     }else if(password == null || password == ""){
+     }else if(password === null || password === ""){
       alert("Password must be needed")                      
-     }else if(username == null || username == ""){
+     }else if(username === null || username === ""){
       alert("Username must be needed")                           
-     }else if(phone == null || phone == "" ){
+     }else if(phone === null || phone === "" ){
       alert("Phone number must be needed")                                                    
      }else{
       
